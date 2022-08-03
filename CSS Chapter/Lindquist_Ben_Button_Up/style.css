@@ -1,14 +1,32 @@
 #Box-1 {
-    background-color: lightgrey;
-    color: lightgreen
+    padding: 3px 0px;
+    margin: 20px;
+    width: 90px;
+    text-align: center;
+    background-color: ghostwhite;
+    color: lightgreen;
+    border: 1px solid lightgreen;
+    border-radius: 15px;
 }
 
 #Box-2 {
+    margin: 20px;
+    padding: 2px 5px;
+    text-align: center;
+    width: 20px;
     background-color: lightseagreen;
     color: white;
+    border: 1px solid lightseagreen;
+    border-radius: 50%;
 }
 
 #Box-3 {
+    text-align: center;
+    margin: 20px;
+    padding: 3px 0px;
+    width: 120px;
     background-color: cornflowerblue;
     color: white;
+    border: 1px solid black;
+    box-shadow: 3px 3px 0px black;
 }
