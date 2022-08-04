@@ -1,0 +1,23 @@
+img {
+    margin: 10px;
+    height: 400px;
+    width: auto;
+}
+
+#lilyYawn {
+    height: auto;
+    width: 250px;
+}
+
+.deggeyCommish{
+    height: auto;
+    width: 250px;
+}
+
+form input {
+    border: solid blue 5px;
+}
+
+.login>input{
+    border: solid yellow 5px;
+}
