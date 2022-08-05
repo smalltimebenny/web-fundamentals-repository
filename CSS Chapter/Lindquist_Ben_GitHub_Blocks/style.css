@@ -1,0 +1,60 @@
+body {
+    background-image: url("images/istockphoto-1391553559-170667a.jpg");
+    font-family: 'Teko', sans-serif;
+    font-family: 'Tomorrow', sans-serif;
+}
+
+.container {
+    height: 2000px;
+    width: 1000px;
+    /* border: solid 5px red; */
+    /* display: flex; */
+    /* align-items: center; */
+    justify-content: center;
+}
+
+
+h1 {
+    height: 60px;
+    width: 600px;
+    margin: 10px 200px 10px 200px;
+    text-align: center;
+    font-size: 50px;
+    background-color: darkorange;
+    color: darkgoldenrod;
+}
+
+.row {
+    display: flex;
+    padding: 20px;
+    height: 250px;
+    width: 810px;
+    margin: 50px;
+    /* border: solid 5px white; */
+}
+
+.images {
+    /* display: flex; */
+    height: 1300px;
+    margin: 20px 25px;
+    /* border: solid 5px black; */
+}
+
+img {
+    height: 250px;
+    width: auto;
+    margin: 0px 10px;
+    /* border: solid 1px cyan; */
+}
+
+#topImages {
+    background-color: whitesmoke;
+}
+
+#middleImages {
+    background-color: brown;
+}
+
+#bottomImages {
+    background-color: chocolate;
+}
