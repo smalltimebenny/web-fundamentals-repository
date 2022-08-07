@@ -1,0 +1,25 @@
+.row {
+    /* height: 50px;
+    width: 400px; */
+    display: flex;
+    justify-content: center;
+    border: dotted 1px black;
+    text-align: center;
+}
+
+.col {
+    flex: 1;
+    margin: 5px;
+    border: solid 1px black;
+}
+.col-2 {
+    flex: 2;
+    margin: 5px;
+    border: solid 1px black;
+}
+
+.col-3{
+    flex: 3;
+    margin: 5px;
+    border: solid 1px black;
+}
