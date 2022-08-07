@@ -1,6 +1,6 @@
 body {
     background-color: rgb(75,75,75);
-    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .nav {
@@ -22,7 +22,7 @@ body {
 
 .nav-title{
     font-size: 40px;
-    margin: 5px 775px 5px 10px;
+    margin: 5px 725px 5px 10px;
 }
 
 li {
