@@ -1,0 +1,223 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.topBar{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+.header {
+    display: flex;
+    background-color: black;
+    color: white;
+    height: 50px;
+    padding: 20px 0px 10px 0px;
+    align-items: center;
+}
+
+.headerLink {
+    color: white;
+    text-decoration: none;
+    margin-right: 60px;
+}
+
+#headerProfile {
+    font-size: 30px;
+    margin-left: 100px;
+}
+
+.headerSignOut {
+    height:30px;
+    width: 90px;
+    align-self: center;
+    background-color: darkcyan;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-right: 100px;
+}
+
+.subHeader {
+    display: flex;
+}
+
+.cyanBar {
+    overflow: visible;
+    position: relative;
+    left: -3px;
+    top: -3px;
+    border: solid 3px darkcyan;
+    height: 100px;
+    background-color: darkcyan;
+}
+
+.userInfo {
+    flex: 2;
+    border: solid 3px lightgrey;
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-right: 10px;
+    padding: 0px 0px 10px 0px;
+}
+
+.user {
+    margin-left: 25px;
+    margin-bottom: 10px;
+}
+
+#circle {
+    height: 80px;
+    width: auto;
+    margin-top: 60px;
+    border: solid 3px white;
+    border-radius: 50px;
+    box-shadow: 0px 0px 0px 3px lightgrey;
+}
+
+.location{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 25px;
+    align-items: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#userLocation {
+    margin-left: 15px;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+#marker {
+    height: 30px;
+    width: auto;
+}
+
+.description {
+    margin-left: 25px;
+    margin-bottom: 10px;
+}
+
+.edit {
+    margin-left: 25px;
+    margin-bottom: 10px;
+}
+
+#gear {
+    height: 25px;
+    width: auto;
+}
+
+.blueLink {
+    margin-left: 10px;
+    color: cornflowerblue;
+}
+
+.fontFix {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.education {
+    border-top: solid 3px lightgrey;
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    color: white;
+    overflow: visible;
+}
+
+.sidebar {
+    margin-top: 30px;
+    margin-right: 100px;
+    margin-left: 10px;
+    flex: 1;
+    border: solid 3px lightgrey;
+}
+
+.fontFix1{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.fontFix2{
+    color: grey;
+    font-size: 20px;
+}
+
+.request {
+    margin: 5px 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.requestPic {
+    height: 25px;
+    width: auto;
+}
+
+.otherUser {
+    height: 40px;
+    width: auto;
+    border: solid 3px black;
+    border-radius: 50px;
+}
+.blackBar {
+    display: flex;
+    overflow: visible;
+    position: relative;
+    left: -3px;
+    top: -3px;
+    border: solid 3px black;
+    background-color: black;
+    padding-left: 25px;
+}
+
+.indent {
+    margin-left: 25px;
+}
+
+.connectionRequests {
+    border-bottom: solid 3px lightgrey;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.yourConnections {
+    border-top: solid 3px lightgrey;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.connectionExisting {
+    margin: 5px 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.viewMore {
+    border-top: solid 3px lightgrey;
+}
+
+.numberMore {
+    background-color: tan;
+    color:antiquewhite;
+    border-left: 7px solid tan;
+    border-right: 7px solid tan;
+    border-bottom: 2px solid tan;
+    border-radius: 100px;
+    align-self: center;
+    margin-right: 10px;
+}
