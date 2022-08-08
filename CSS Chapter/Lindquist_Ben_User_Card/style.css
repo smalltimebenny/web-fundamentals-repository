@@ -1,0 +1,94 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.heading {
+    overflow: visible;
+    position: relative;
+    left: -3px;
+    top: -3px;
+    border: solid 3px darkcyan;
+    height: 100px;
+    width: 710px;
+    background-color: darkcyan;
+}
+
+.container {
+    /* position: absolute; */
+    /* left: 0px;
+    top: 0px; */
+    height: 360px;
+    width: 700px;
+    border: solid 3px lightgrey;
+    margin: 10px 125px;
+    padding: 0px 10px 10px 0px;
+    /* align-items: center; */
+}
+
+.user {
+    margin-left: 25px;
+    margin-bottom: 10px;
+}
+
+#circle {
+    height: 80px;
+    width: auto;
+    margin-top: 60px;
+    border: solid 3px white;
+    border-radius: 50px;
+    box-shadow: 0px 0px 0px 3px lightgrey;
+}
+
+.location{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 25px;
+    align-items: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#userLocation {
+    margin-left: 15px;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+#marker {
+    height: 30px;
+    width: auto;
+}
+
+.description {
+    margin-left: 25px;
+    margin-bottom: 10px;
+    /* font-size: 20px;
+    font-weight: bold; */
+}
+
+.edit {
+    margin-left: 25px;
+    margin-bottom: 10px;
+    /* font-size: 20px;
+    font-weight: bold; */
+}
+
+#gear {
+    height: 25px;
+    width: auto;
+}
+
+a {
+    margin-left: 10px;
+    color: cornflowerblue;
+}
+
+.fontFix {
+    font-size: 20px;
+    font-weight: bold;
+}
