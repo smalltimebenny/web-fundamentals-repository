@@ -22,6 +22,12 @@ body {
     align-items: center;
 }
 
+/* .header>a {
+    color: white;
+    text-decoration: none;
+    margin-right: 60px;
+} */
+
 .headerLink {
     color: white;
     text-decoration: none;
